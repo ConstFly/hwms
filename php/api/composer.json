@@ -1,0 +1,20 @@
+{
+    "name": "sgrover/hwms-api",
+    "description": "An API that serves the message defined in our core application code.",
+    "authors": [
+        {
+            "name": "Shawn Grover",
+            "email": "shawn@MYDOMAIN.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+      {
+        "type" : "path",
+        "url" : "~/dev/sgrover/helloworld_microservice/php/core"
+      }
+    ],
+    "require": {
+      "sgrover/hwms": "*"
+    }
+}

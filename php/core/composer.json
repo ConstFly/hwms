@@ -1,0 +1,16 @@
+{
+    "name": "sgrover/hwms",
+    "description": "The core application for a basic Hello World Micro Service example.",
+    "authors": [
+        {
+            "name": "Shawn Grover",
+            "email": "sgrover@open2space.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Sgrover\\Hwms\\" : "src/"
+      }
+    }
+}

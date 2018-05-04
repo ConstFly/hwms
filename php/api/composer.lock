@@ -1,0 +1,41 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "deec3307cce07285616b55f7ab92cfbb",
+    "packages": [
+        {
+            "name": "sgrover/hwms",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/home/shawn/dev/sgrover/helloworld_microservice/php/core",
+                "reference": "531a7cb3b31231a68ebf4033b9be13e9e386896f",
+                "shasum": null
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sgrover\\Hwms\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Shawn Grover",
+                    "email": "sgrover@open2space.com"
+                }
+            ],
+            "description": "The core application for a basic Hello World Micro Service example."
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
